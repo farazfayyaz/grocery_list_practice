@@ -1,0 +1,47 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#input_area{
+    width: auto;
+    margin-top: 40px;
+}
+
+#display{
+    width: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    border: lightblue solid 0.5px;
+}
+
+#display {
+    text-align: left;
+    width: 40%;
+    margin: auto;
+}
+
+#input_area {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button{
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+h2{
+    cursor: pointer;
+}
